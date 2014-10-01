@@ -1,0 +1,137 @@
+/*font-family: 'Caudex', serif;*/
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Caudex', serif;
+    user-select: none;
+    color: #888;
+    background-image: url('gamethrone.jpg');
+    background-size: cover;
+    background-position: center bottom;
+}
+
+
+.timers{
+  margin-left: 80px;
+
+}
+
+.timers h1{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+ul.timer {
+    position: relative;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    width: 100px;
+    height: 90px;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 87px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .7);
+}
+
+ul.timer li {
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar{
+  width: 10%;
+  float: left;
+}
+
+header{
+  margin: 10px auto;
+  width: 1200px;
+  text-align: center;
+}
+
+header ul {
+  padding-left: 0;
+}
+
+
+header h1{
+  font-size: 3em;
+}
+
+
+header ul li{
+  /*list-style-type: none;*/
+  display: inline;
+  font-size: 1em;
+
+}
+
+header ul li button{
+  border:none;
+  width: 20%;
+  background-color: #8b8b8b;
+  color: #ffffff;
+}
+
+header ul li button:hover{
+  background-color: #a5a5a5;
+}
+
+.board{
+  margin: 10px auto;
+  max-width: 900px;
+  height: 680px;
+}
+
+.col{
+  /*margin: 0 auto;*/
+  float: left;
+  height: 680px;
+  width: 14.14%;
+  /*background-color: #c7c7c7;*/
+  /*opacity: .4;*/
+  background-color: rgba(204,204,204,0.2);
+
+}
+
+.cell{
+  margin: 10px auto;
+  clear: both;
+  border-radius: 50%;
+  background-color: #dfdfdf;
+  height: 100px;
+  width: 100px;
+  opacity: .9;
+}
+
+img{
+
+  border: solid #2faaa8 1px;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+footer{
+  text-align: center;
+  margin: 10px;
+}
+footer button{
+  background-color: #0f0f0f;
+  font-size: 1em;
+  color:#a9a9a9;
+  border: none;
+  width: 50%;
+}
+footer button:hover{
+  background-color: #1a1a1a;
+}
